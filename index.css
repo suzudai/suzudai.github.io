@@ -1,0 +1,177 @@
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin: 0;
+  position: relative;
+  background-color: #FFEBCD
+  display:flex;
+  position: relative;
+  margin: 0 auto 20px;
+
+}
+
+a {
+	color: #blue;
+	transition: 0.3s;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px;
+}
+
+body {
+
+}
+
+header {
+  background: radial-gradient(#CCCC66, #EA6264) fixed;
+  background-size: cover;
+  padding: 40px;
+  position: relative;
+}
+
+header p {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  text-align: left;
+  font-size: 12px;
+  margin: 0;
+  position: absolute;
+}
+
+.btn {
+  display: inline-block;
+  width: 150px;
+  background: #fff;
+  opacity: 0.9;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  margin: 0;
+  text-align: center;
+  border-radius: 10px;
+  border: solid 2px #7B3CFF;
+  font-size: 20px;
+  opacity: 0.7;
+
+}
+
+.btn:hover {
+  opacity: 1.0;
+}
+
+.header {
+  position: relative;
+  margin: 0 auto 20px;
+  max-width: 1000px;
+  overflow: hidden;
+	list-style-type: none;
+  float: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  background: radial-gradient(#F2B9A1, #EA6264) fixed;
+  margin-top: 30px;
+}
+
+.header ul {
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.main {
+  margin: 0 140px;
+}
+
+#header-list {
+  height: auto;
+}
+
+#header-list li {
+  color: #;
+  float: left;
+  list-style: none;
+  text-align: center;
+  flex: 0.1 0 auto;
+  background: radial-gradient(#F2B9A1, #EA6264) fixed;
+}
+
+#header-list li a {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+}
+
+#header-list ul li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+#center {
+  margin: 0;
+  width: 700px;
+  overflow:hidden;
+}
+
+#ph1 {
+  background: url(./img/6.jpg);
+  width: 100%;
+
+}
+#ph1 h1 {
+  margin: 0;
+  height: 500px;
+}
+
+.copy-container h1 {
+  font-size: 50px;
+}
+
+contents1 {
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+}
+
+#section-title {
+  padding: 0.5em 1em;
+  color: #ff7d6e;
+  background: #ffebe9;
+  border-left: solid 10px #ff7d6e;
+}
+
+#contents-item {
+    padding: 0.5em 1em;
+}
+
+#contents-item p {
+    padding: 0;
+    color: #000;
+    float: left;
+}
+
+#section-title h3{
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+
+.footer {
+  background: radial-gradient(#F2B9A1, #EA6264) fixed;
+  color: #009900;
+  clear:both;
+  height:150px;
+  text-align:center;
+  font-size:0.85em;
+  bottom: 0;
+}
+
+#footer-logo {
+  padding-left: 30px;
+  font-size: 40px;
+}
+
+.footer p {
+  margin: 0;
+}
